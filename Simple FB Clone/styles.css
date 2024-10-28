@@ -1,0 +1,135 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #e7f3ff, #ffffff);
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+
+row {
+  background-color: lemonchiffon;
+  font-family: Century Gothic;
+  font-size: 15pt;
+}
+
+.h1 {
+  font-size: 55px;
+  font-weight: bold;
+  background-color: #3b5998;
+  color: white;
+  font-family: "Lucida Grande", tahoma, verdana, arial, sans-serif;
+  text-align: left;
+  padding: 0%;
+  margin: 0 auto;
+  margin-top: -8px;
+  width: 1257px;
+  height: 88px;
+  border-radius: 2px;
+  line-height: 1.5;
+}
+
+
+.h1 button {
+  background-color: #4caf50; 
+  color: #FFFFFF; 
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 3px 7px; 
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.h1 button:hover {
+  background-color: #3b9846;
+  color: rgb(0, 0, 0); 
+  transform: scale(1.05); 
+}
+
+td button {
+  background-color: #4caf50; 
+  color: #FFFFFF;
+  border: none;
+  border-radius: 3px;
+  font-size: 17px;
+  cursor: pointer;
+  padding: 10px 15px; 
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+td button:hover {
+  background-color: #3b9846; 
+  color: rgb(0, 0, 0); 
+  transform: scale(1.05); 
+}
+
+
+.P {
+  font-size: 20pt;
+  font-weight: bold;
+  padding: 0%;
+  margin: 0 auto;
+  padding-left: 13.9%;
+  padding-top: 5%;
+  text-align: left;
+}
+
+.secP {
+  font-size: 12pt;
+  padding: 0%;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-top: 3%;
+}
+.thirP {
+  font-size: 12pt;
+  padding: 0%;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-top: 0.5%;
+}
+.fourP {
+  font-size: 12pt;
+  padding: 0%;
+  margin: 0 auto;
+  padding-left: 20%;
+  padding-top: 0.5%;
+}
+.form {
+  padding-left: 50%;
+  padding-top: 0%;
+  margin-top: -280px;
+}
+
+.sign-up {
+  width: 203px;
+  height: 39px;
+  font-size: 20px;
+  background-color: #4caf50;
+  border-radius: 8px;
+}
+
+.mail {
+  color: #9e9e9e;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 40%;
+  width: 175px;
+  height: 15px;
+  font-size: 15px;
+  background-color: #ffffff;
+}
+
+login-hover {
+  color: #3b5998;
+}
+
+img {
+  width: 230px;
+  height: 290px;
+  border-radius: 35%;
+  margin-top: -240px;
+  margin-left: -40%;
+}
+
